@@ -139,28 +139,37 @@
             </div>
         </div>
 
-        <!--Contact section-->
-        <div class="Row" id="Contact">
-            <!--Contact image, left column-->
-            <div class="Column_2 Column_tall">
-                <img src="images/Contact.jpg" alt="Contact_Image">
-            </div>
-            <!--Contact form, right column-->
-            <div class="Column_1 Column_tall">
-                <h1>Contact</h1>
-                <!--This specifies where and how to send the form data; we are leaving it blank-->
-                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
-                    <label>Name:</label>
-                        <input type="text" placeholder="Please enter your name here">
-                    <label>Email:</label>
-                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
-                    <label>Message:</label>
-                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
-                        <input type="submit" value="SUBMIT">
-                </form>
-            </div>
-        </div>
+        <!-- Contact section -->
+<div id="Contact">
 
+    <!-- Contact button -->
+    <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
+
+    <!-- Contact popup -->
+    <div class="form-popup" id="myForm">
+
+        <form action="" method="POST" class="form-container">
+
+            <h1>Contact</h1>
+
+            <label for="Name">Name:</label>
+            <input type="text" id="Name" name="Name" placeholder="Please enter your name here">
+
+            <label for="Email">Email:</label>
+            <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+
+            <label for="Message">Message:</label>
+            <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+
+            <button type="submit" class="btn">SUBMIT</button>
+
+            <button type="button" class="cancel" onclick="closeForm()">CLOSE</button>
+
+        </form>
+
+    </div>
+
+</div>
         <!--Footer section-->
         <footer>
             <p>

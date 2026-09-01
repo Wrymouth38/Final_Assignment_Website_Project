@@ -409,7 +409,11 @@ footer a {
     right: .5vw;
 }
 
-
+.form-container {
+    max-width: 49vw;
+    padding: 1vw;
+    background-color: white;
+}
 
 /* input[type=text] targets all text input sections of the contact form */
 input[type=text] {

@@ -327,6 +327,22 @@ footer a {
     background-color: black;
 }
 
+/*ADDING THE FADE ANIMATION*/
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from{
+        opacity: .4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
 
 /***** TABLE STYLING -  this section covers the styling of the columns and rows within the table *****/
 * { /* The asterisk is a universal selector that applies this effect to all elements on the page */

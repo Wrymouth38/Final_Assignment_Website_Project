@@ -22,4 +22,6 @@ function showSlides(n) {
     for (var i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
+
+    dots[slideIndex - 1].className += " active";
 }

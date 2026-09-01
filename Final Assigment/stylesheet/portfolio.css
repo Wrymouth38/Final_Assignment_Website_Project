@@ -426,6 +426,7 @@ footer a {
     font-size: 1vw; /* This sets the font size of the text boxes */
 }
 
+/*Form container styling*/
 .form-container .btn {
     background-color: #2c786c;
     color: white;
@@ -448,10 +449,19 @@ footer a {
     opacity: 0.8;
 }
 
+.form-container .btn:hover,
+.form-container .cancel:hover {
+    opacity: 1;
+}
+
+/*End of form container styling*/
+
 /* Hover effects for input boxes */
 input[type=text]:hover {
     box-shadow: 0 0 5px #00004d inset; /* This creates a blue shadow in the text box when hovered over by the user */
 }
+
+
 
 /* Submit button */
 input[type=submit] {

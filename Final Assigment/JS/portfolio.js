@@ -33,3 +33,9 @@ function plusSlides(n) {
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }
+
+function openForm() {
+    document.getElementById("myForm").style.display = "block";
+}
+
+

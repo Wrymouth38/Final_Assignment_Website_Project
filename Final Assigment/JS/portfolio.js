@@ -42,3 +42,12 @@ function closeForm() {
     document.getElementById("myForm").style.display = "none";
 }
 
+document.addEventListener("click", function(event) {
+    if (
+        event.target.matches(".cancel") ||
+        (!event.target.closet(".form-popup") &&
+        !event.target.closet(".Pop_Up_Button"))
+    ) {
+        closetForm();
+    }
+});

@@ -426,6 +426,17 @@ footer a {
     font-size: 1vw; /* This sets the font size of the text boxes */
 }
 
+.form-container .btn {
+    background-color: #2c786c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
 /* Hover effects for input boxes */
 input[type=text]:hover {
     box-shadow: 0 0 5px #00004d inset; /* This creates a blue shadow in the text box when hovered over by the user */

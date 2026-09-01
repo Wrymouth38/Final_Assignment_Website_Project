@@ -419,7 +419,7 @@ footer a {
 
 .form-container input[type=text] {
     width: 100%; /* This ensures the text boxes take up the full width of the contact form */
-    padding: 93vw; /* This adds padding to the text boxes */
+    padding: .93vw; /* This adds padding to the text boxes */
     margin: .6vw 0 .6vw 0; /* This adds a margin above and below the text boxes */
     border: none; /* This removes the border from the text boxes */
     background: Gainsboro; /* This sets the background color of the text boxes to light gray */

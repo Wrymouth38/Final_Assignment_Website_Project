@@ -416,16 +416,14 @@ footer a {
 }
 
 /* input[type=text] targets all text input sections of the contact form */
-input[type=text] {
-    width: 100%; /* Each input box covers the full width of the container */
-    padding: 12px; /* Adds padding within the text box */
-    border: 1px solid #ccc; /* Setting a solid border and its color */
-    border-radius: 4px; /* Slightly rounds the corners of the text box border */
-    box-sizing: border-box; /* This creates a box with a border around the contact form input boxes */
-    margin-top: 6px; /* Adds a margin to the top of the text box */
-    margin-bottom: 16px; /* Adds a margin to the bottom of the text box */
-    resize: vertical; /* This allows the user to resize the text boxes vertically */
-    font-family: Perpetua, Rockwell Extra Bold;
+
+.form-container input[type=text] {
+    width: 100%; /* This ensures the text boxes take up the full width of the contact form */
+    padding: 93vw; /* This adds padding to the text boxes */
+    margin: .6vw 0 .6vw 0; /* This adds a margin above and below the text boxes */
+    border: none; /* This removes the border from the text boxes */
+    background: Gainsboro; /* This sets the background color of the text boxes to light gray */
+    font-size: 1vw; /* This sets the font size of the text boxes */
 }
 
 /* Hover effects for input boxes */

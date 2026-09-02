@@ -230,6 +230,7 @@ footer a {
     position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
     -webkit-animation: moveVideoText 5.75s;
     animation: moveVideoText 5.75s;
+    height: 100vw;
 }
 
 /* This animation effect causes the overlay video text to move up from the bottom of the page upon page load */

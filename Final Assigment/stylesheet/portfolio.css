@@ -16,6 +16,7 @@ h1 {
     text-align: center; /* Centering all h1 elements */
     margin-top: 3%; /* Adds a small margin above h1 elements */
     color: #fff; /* Changed to white for visibility on dark backgrounds */
+    font-size: 2.5vw; /* This sets the font size of h1 elements to 2.5% of the viewport width */
 }
 
 /* Heading 1 element hover effect */

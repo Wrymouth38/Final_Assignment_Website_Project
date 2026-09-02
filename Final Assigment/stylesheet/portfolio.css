@@ -124,6 +124,12 @@ img:hover {
     align-items: center; /* Vertically centers the image */
 }
 
+.Instagram_Container img {
+    height: 340px;
+    width: auto;
+}
+
+
 /* The @media rule is used in media queries to apply different styles for different media/types of devices */
 /* On screens 576px and smaller the images will be 100px tall and centered vertically in the column */
 @media screen and (max-width: 576px) {

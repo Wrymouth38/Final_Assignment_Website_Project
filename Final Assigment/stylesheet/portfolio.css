@@ -55,6 +55,8 @@ p:hover {
 /* Center class - this applies to all elements with the class "center" */
 .center {
     text-align: center; /* This center aligns the text */
+    font-size: 1.5vw;
+    padding: 1vh 2vw;
 }
 
 /* Center class hover effect - This only affects the quote, github link, and footer */

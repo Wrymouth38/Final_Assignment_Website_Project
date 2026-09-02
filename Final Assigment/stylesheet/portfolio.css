@@ -27,7 +27,9 @@ h1:hover {
 
 /* Styling for portfolio title text */
 .white-text {
-    color: #fff; /* This is used to change the color of the portfolio title text */
+    color: white; /* This is used to change the color of the portfolio title text */
+    font-size: 3vw; 
+    margin-bottom: 3vh;
 }
 
 /* Paragraph elements */

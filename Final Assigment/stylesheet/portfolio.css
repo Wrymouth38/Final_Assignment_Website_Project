@@ -399,6 +399,18 @@ footer a {
     color: black;
     border: solid black;
     cursor: pointer;
+    -webkit-animation: movePopup 5s;
+    animation: movePopup 5s;
+}
+
+@keyframes movePopup {
+    from {
+        right: -40vw;
+    }
+
+    to {
+        right: 1.75vw;
+    }
 }
 
 .Pop_Up_Button:hover {

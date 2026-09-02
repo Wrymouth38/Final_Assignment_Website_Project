@@ -32,6 +32,8 @@ h1:hover {
     margin-bottom: 3vh;
 }
 
+
+
 /* Paragraph elements */
 p {
     font-family: Perpetua, Rockwell Extra Bold;
@@ -68,6 +70,7 @@ a {
 /* Quotation elements */
 q {
     font-style: italic; /* This makes the quote italicized */
+    font-size: 1.3vw;
 }
 
 /* Image elements */

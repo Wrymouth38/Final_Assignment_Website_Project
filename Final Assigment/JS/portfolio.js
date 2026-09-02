@@ -48,6 +48,6 @@ document.addEventListener("click", function(event) {
         (!event.target.closest(".form-popup") &&
         !event.target.closest(".Pop_Up_Button"))
     ) {
-        closetForm();
+        closeForm();
     }
 });

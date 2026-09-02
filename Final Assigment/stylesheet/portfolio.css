@@ -98,6 +98,8 @@ img:hover {
 /* Column 2 images - removes grayscale filter to display in color by default */
 .Column_2 img {
     filter: grayscale(0%); /* Displays images in Column_2 in full color */
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 /* Instagram container - displays text on left and image centered */

@@ -30,6 +30,7 @@ h1:hover {
     color: white; /* This is used to change the color of the portfolio title text */
     font-size: 3vw; 
     margin-bottom: 3vh;
+    padding-top: 10vh;
 }
 
 

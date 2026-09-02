@@ -82,8 +82,7 @@ img {
     
     border-radius: 8px; /* Gives all images slightly rounded corners */
     max-width: 100%; /* Ensures all images stay within the width of their container */
-    max-height: 340px;
-    height: auto; /* Sets the height of all images */
+    height: 340px; /* Sets the height of all images */
     display: block; /* By specifying block display we can ensure our images are able to be centered */
     margin-left: auto; /* In combination with "margin-right: auto" this centers all images */
     margin-right: auto;

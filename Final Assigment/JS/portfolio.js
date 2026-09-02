@@ -45,8 +45,8 @@ function closeForm() {
 document.addEventListener("click", function(event) {
     if (
         event.target.matches(".cancel") ||
-        (!event.target.closet(".form-popup") &&
-        !event.target.closet(".Pop_Up_Button"))
+        (!event.target.closest(".form-popup") &&
+        !event.target.closest(".Pop_Up_Button"))
     ) {
         closetForm();
     }

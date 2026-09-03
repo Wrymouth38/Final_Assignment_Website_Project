@@ -178,10 +178,19 @@ footer a {
 }
 
 /* Screens 576px and smaller will display navbar links equally distributed */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) and (max-width: 900px) {
+
     .Navbar a{
         width: 25%; /* This makes each link take up 1/4 of the navbar */
         font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 900px) {
+
+    .Navbar a{
+        font-size: 15px; /* This makes the font size of the navbar links smaller on screens between 576px and 900px */
+        padding: 10px 12px; /* This makes the padding around the navbar links smaller on screens between 576px and 900px */ 
     }
 }
 
@@ -421,6 +430,14 @@ footer a {
 	content: ""; /* By leaving this blank, we are allowing the footer (covered lower down) to be displayed - removing it makes the footer overwrite a column */
 	display: table; /* The display property specifies the type of display behavior; the table value tells the browser to treat the element as a table */
 	clear: both; /* This clears any other elements from floating on the left or the right of an element */
+}
+
+@media screen and (max-width: 900px) {
+
+    .Column_1,
+    .Column_2 {
+        width: 100%;
+    }
 }
 /***** END OF TABLE STYLING *****/
 

@@ -97,6 +97,7 @@ img:hover {
 /* Instagram container - displays text on left and image centered */
 .Instagram_Container {
     display: flex; /* Uses flexbox to arrange items in a row */
+    justify-content: center; /* Centers items horizontally */
     align-items: center; /* Vertically centers items */
     gap: 20px; /* Adds spacing between text and image */
 }

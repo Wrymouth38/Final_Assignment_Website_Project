@@ -273,8 +273,9 @@ footer a {
 
 .Slideshow_Images {
     vertical-align: middle;
-    height: 50vh;
-    width: 40vw;
+    height: 450px;
+    width: 100%;
+    max-width: 800px;
     object-fit:cover;
 }
 

@@ -256,7 +256,8 @@ footer a {
 }
 
 .mySlides {
-    display: none;    
+    display: none;  
+    position: relative;  
 }
 
 #Slideshow_Container {

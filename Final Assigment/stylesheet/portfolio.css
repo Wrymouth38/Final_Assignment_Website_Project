@@ -361,7 +361,7 @@ footer a {
 } 
 
 .Column_1 {
-    float: left;
+    float: none;
     width: 50%; /* This ensures the column takes up half of the page width */
     padding: 10px;
     padding-top: 3%; /* This ensures there is space between the top of the column and our headings */
@@ -377,7 +377,7 @@ footer a {
 }
 
 .Column_2 {
-    float: left;
+    float: none;
     width: 50%;
     padding: 10px;
     padding-top: 1.9%;
@@ -393,6 +393,10 @@ footer a {
 }
 
 /* This inserts something after the content of selected elements (in this case the elements with class "Row") */
+.Row {
+    display: flex;
+    align-items: stretch;
+}
 .Row:after {
 	content: ""; /* By leaving this blank, we are allowing the footer (covered lower down) to be displayed - removing it makes the footer overwrite a column */
 	display: table; /* The display property specifies the type of display behavior; the table value tells the browser to treat the element as a table */

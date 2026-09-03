@@ -99,16 +99,6 @@ img:hover {
     display: flex; /* Uses flexbox to arrange items in a row */
     justify-content: center; /* Centers items horizontally */
     align-items: center; /* Vertically centers items */
-    gap: 20px; /* Adds spacing between text and image */
-}
-
-/* Instagram text styling */
-.Instagram_Text {
-    flex: 0 0 auto; /* Fixed width text - takes only what it needs */
-    margin: 0; /* Removes default heading margin */
-    font-size: 24px; /* Sets font size for the heading */
-    color: #fff; /* Makes text white to match the dark background */
-    text-align: left; /* Aligns text to the left */
 }
 
 /* Instagram link - centers the image */

@@ -92,7 +92,6 @@ img {
 img:hover {
 	filter: grayscale(5%);  /* Brings back most of the image's color when hovered over */
     transition: transform 1s; /* Transition lasts 1 second */
-	 /* Image is increased slightly when hovered over */
 }
 
 /* Column 2 images - removes grayscale filter to display in color by default */
@@ -274,8 +273,9 @@ footer a {
 
 .Slideshow_Images {
     vertical-align: middle;
-    height: auto;
+    height: 25vw;
     width: 100%;
+    object-fit:cover;
 }
 
 /***** END SLIDESHOW STYLING *****/

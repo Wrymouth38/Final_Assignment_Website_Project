@@ -399,6 +399,8 @@ footer a {
 /* Column 2 images - removes grayscale filter to display in color by default */
 .Column_2 img {
     filter: grayscale(75%); /* Displays images in Column_2 in full color */
+    position: relative; /* This sets the image relative to its normal positioning, allowing us to use the animation below */
+    top: 50px;
 }
 
 .Column_2 img:hover {

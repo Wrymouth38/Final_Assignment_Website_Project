@@ -418,6 +418,7 @@ footer a {
     -webkit-animation: movePopup 5s;
     animation: movePopup 5s;
     height: 3vw;
+    font-size: 1.5vw;
 }
 
 @keyframes movePopup {

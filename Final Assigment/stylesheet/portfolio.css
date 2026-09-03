@@ -457,7 +457,7 @@ footer a {
     margin: .6vw 0 .6vw 0; /* This adds a margin above and below the text boxes */
     border: none; /* This removes the border from the text boxes */
     background: Gainsboro; /* This sets the background color of the text boxes to light gray */
-    font-size: 2vw; /* This sets the font size of the text boxes */
+    font-size: 1vw; /* This sets the font size of the text boxes */
 }
 
 /*Form container styling*/

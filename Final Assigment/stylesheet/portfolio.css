@@ -94,11 +94,6 @@ img:hover {
     transition: transform 1s; /* Transition lasts 1 second */
 }
 
-/* Column 2 images - removes grayscale filter to display in color by default */
-.Column_2 img {
-    filter: grayscale(0%); /* Displays images in Column_2 in full color */
-}
-
 /* Instagram container - displays text on left and image centered */
 .Instagram_Container {
     display: flex; /* Uses flexbox to arrange items in a row */
@@ -399,7 +394,16 @@ footer a {
     padding-top: 1.9%;
     min-height: 550px;
     background-color: #4d4d4d;
-    filter: grayscale(75%); /* This applies a grayscale filter to the images in Column_2 */
+}
+
+/* Column 2 images - removes grayscale filter to display in color by default */
+.Column_2 img {
+    filter: grayscale(75%); /* Displays images in Column_2 in full color */
+}
+
+.Column_2 img:hover {
+    filter: grayscale(0%);
+    transition: filter 1s;
 }
 
 /* This class is applied to the columns in the final row, overriding the height and padding to provide more room for the contact form  while keeping the rest of the formatting from Column_1 or Column_2 */

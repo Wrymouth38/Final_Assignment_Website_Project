@@ -58,6 +58,15 @@ p:hover {
     text-align: center; /* This center aligns the text */
     font-size: 1.5vw;
     padding: 1vh 2vw;
+    border: 2px solid #00ffff; /* This adds a cyan border around the elements with class "center" */
+    border-radius: 5px; /* This rounds the corners of the border around the elements with class "center" */
+    text-decoration: none; /* This removes the underline from the text in the elements with class "center" */
+    transition: all 0.3s ease; /* This adds a transition effect to all properties of the elements with class "center" */    
+}
+
+.center a:hover {
+    background-color: #00ffff;
+    color: black;
 }
 
 /* Center class hover effect - This only affects the quote, github link, and footer */

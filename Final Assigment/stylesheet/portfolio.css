@@ -119,6 +119,13 @@ img:hover {
     align-items: center; /* Vertically centers the image */
 }
 
+/*Instagram image styling */
+
+.Instagram_Container img {
+    position: relative; /* This sets the image relative to its normal positioning, allowing us to use the animation below */
+    top: 50px; /* This moves the image down 100px from its normal position */
+}
+
 
 /* The @media rule is used in media queries to apply different styles for different media/types of devices */
 /* On screens 576px and smaller the images will be 100px tall and centered vertically in the column */

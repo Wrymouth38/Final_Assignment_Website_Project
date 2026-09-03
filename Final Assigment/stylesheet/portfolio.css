@@ -409,7 +409,7 @@ footer a {
 .Column_2 img {
     filter: grayscale(75%); /* Displays images in Column_2 in full color */
     position: relative; /* This sets the image relative to its normal positioning, allowing us to use the animation below */
-    top: 100px;
+    top: 120px;
 }
 
 .Column_2 img:hover {

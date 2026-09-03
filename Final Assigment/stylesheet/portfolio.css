@@ -273,7 +273,7 @@ footer a {
 
 .Slideshow_Images {
     
-    height: 450px;
+    height: auto;
     width: 100%;
     max-width: 800px;
     object-fit: cover;

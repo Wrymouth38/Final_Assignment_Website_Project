@@ -279,6 +279,11 @@ footer a {
     object-fit:contain;
 }
 
+.Slideshow_Images:hover {
+    filter: grayscale(0%);  /* Brings back most of the image's color when hovered over */
+    transition: filter 1s; /* Transition lasts 1 second */
+}
+
 /***** END SLIDESHOW STYLING *****/
 
 /***** PREVIOUS AND NEXT BUTTON STYLING *****/

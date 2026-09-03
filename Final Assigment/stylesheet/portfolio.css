@@ -341,12 +341,16 @@ footer a {
     background-color: white;
     border-radius: 50%;
     display: inline-block;
-    transition: background-color 0.6s ease;
+    transition: background-color 0.6s ease, transform 0.3s ease; /* This adds a transition effect for the background color and transform properties */
     z-index: 1;
 }
 
 .active, .dot:hover {
     background-color: black;
+}
+
+.dot.active {
+    transform: scale(1.2); /* This makes the active dot increase in size by 1.2 */
 }
 
 /*ADDING THE FADE ANIMATION*/

@@ -119,13 +119,6 @@ img:hover {
     align-items: center; /* Vertically centers the image */
 }
 
-/*Instagram image styling */
-
-.Instagram_Container img {
-    position: relative; /* This sets the image relative to its normal positioning, allowing us to use the animation below */
-    top: 50px; /* This moves the image down 100px from its normal position */
-}
-
 
 /* The @media rule is used in media queries to apply different styles for different media/types of devices */
 /* On screens 576px and smaller the images will be 100px tall and centered vertically in the column */
@@ -414,6 +407,13 @@ footer a {
 .Column_2 img:hover {
     filter: grayscale(0%);
     transition: filter 1s;
+}
+
+/*Instagram image styling */
+
+.Instagram_Container img {
+    position: relative; /* This sets the image relative to its normal positioning, allowing us to use the animation below */
+    top: 50px; /* This moves the image down 100px from its normal position */
 }
 
 /* This class is applied to the columns in the final row, overriding the height and padding to provide more room for the contact form  while keeping the rest of the formatting from Column_1 or Column_2 */

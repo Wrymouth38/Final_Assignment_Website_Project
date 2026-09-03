@@ -257,7 +257,8 @@ footer a {
 
 .mySlides {
     display: none; 
-    
+    position: relative;
+    height:auto; 
 }
 
 #Slideshow_Container {

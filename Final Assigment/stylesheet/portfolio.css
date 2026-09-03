@@ -317,6 +317,7 @@ footer a {
 /**** This CSS will put text inside the image with semi transparent background ****/
 
 .text {
+    position: absolute;
     color: white;
     padding: 1vw;
     width: 100%;

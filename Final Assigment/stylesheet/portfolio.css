@@ -329,6 +329,7 @@ footer a {
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.75);
     bottom: 0;
+    border-radius: 0 0 7px 7px;
 }
 
 /*STYLING SLIDESHOW DOTS*/
